@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box {
+        background-color: aqua;
+    }
+
+    .box1 {
+
+        padding: 10px;
+        margin: 25px;
+        border: 2px solid black;
+        height: 200px;
+        box-sizing: border-box;
+        /*  box sizing:border box implies border+padding+content=200px *
+    if it is not there content itself will take 200px ,padding and border will take separate space */
+
+    }
+    .box2 {
+
+        padding: 10px;
+        margin: 35px;
+        
+         /* margin collase :-when margin of two elements collapse ,the max margin will apply only once  */
+        border: 2px solid black;
+        height: 200px;
+        box-sizing: border-box;
+        /*  box sizing:border box implies border+padding+content=200px *
+    if it is not there content itself will take 200px ,padding and border will take separate space */
+
+    }
+</style>
+
+<body>
+    <div class="box box1">I am box1</div>
+    <div class="box box2">I am box2</div>
+</body>
+
+</html>

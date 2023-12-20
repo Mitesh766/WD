@@ -1,0 +1,1 @@
+document.querySelector(".box")[2].style.backgroundColor="green"
