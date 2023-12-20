@@ -145,3 +145,4 @@ arr.forEach((value,index,array)=>{
  console.log(index,value,array)
 })
 console.log(Array.from("Heelo"))
+console.log("HI")
